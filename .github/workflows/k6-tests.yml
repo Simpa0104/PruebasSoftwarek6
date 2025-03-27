@@ -17,7 +17,7 @@ jobs:
             - name: Instalar k6
               run: |
                 curl -s https://packagecloud.io/install/repositories/grafana/stable/script.deb.sh | sudo bash
-                sudo apt install k6
+                sudo snap install k6
 
             - name: Ejecucion de las pruebas de carga
               run: |
